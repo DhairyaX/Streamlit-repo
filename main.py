@@ -1,6 +1,6 @@
 import streamlit as st
 import sqlite3 
-from streamlit_option_menu import option_menu
+from streamlit-option-menu import option-menu
 
 def connect_db():
     conn = sqlite3.connect('mydb.db')
